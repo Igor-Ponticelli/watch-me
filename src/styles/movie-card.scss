@@ -17,6 +17,11 @@
     justify-content: center;
 
     background: rgba(31, 34, 41, 0.5);
+    transition: 0.2s;
+    &:hover{
+      cursor: pointer;
+      background: rgba(31, 34, 41, 0.2);
+    }
 
     .movie-info {
       max-width: 12.31rem;
